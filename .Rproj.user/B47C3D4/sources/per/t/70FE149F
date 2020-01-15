@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577801329596.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3747661031",
+    "id" : "70FE149F",
+    "lastKnownWriteTime" : 1576699361,
+    "last_content_update" : 1576699361,
+    "path" : "G:/Mi unidad/Documentos Yoryi/Documents yoryi/Doctorado Tesis/Encuesta/EncuestaAvesRegistro/app.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "764,18",
+        "scrollLine" : "758"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579030377553.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4141280845",
+    "id" : "753DA403",
+    "lastKnownWriteTime" : 1579031605,
+    "last_content_update" : 1579031605942,
+    "path" : "G:/Mi unidad/Documentos Yoryi/Documents yoryi/Doctorado Tesis/Encuesta/EncuestaOnline/ayuda encuesta.R",
+    "project_path" : "ayuda encuesta.R",
+    "properties" : {
+        "cursorPosition" : "289,6",
+        "scrollLine" : "278",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

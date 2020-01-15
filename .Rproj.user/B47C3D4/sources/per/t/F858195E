@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577800682678.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3765331412",
+    "id" : "F858195E",
+    "lastKnownWriteTime" : 1579040596,
+    "last_content_update" : 1579040596473,
+    "path" : "G:/Mi unidad/Documentos Yoryi/Documents yoryi/Doctorado Tesis/Encuesta/EncuestaOnline/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "393,85",
+        "scrollLine" : "368"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
