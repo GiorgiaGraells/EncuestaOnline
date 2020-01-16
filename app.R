@@ -340,48 +340,48 @@ shinyApp(
                    
                      #Gaviota
                               wellPanel(h3("En relación a la siguiente imgen:"),
-                                        img(src = paste0("Especie1.jpg"), height = 501, width = 374),
+                                        img(src = "Especie1.jpg", height = 501, width = 374),
                                   radioButtons("Conoce_Larus", label = h5("¿Conoces a esta ave?"),
                                                choices = list("Si" = 1, "No" = 2)),
                                   textInput("Nombre_Larus", label=h5("Escribe el nombre de esta ave", ""))),
 
                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                         img(src = paste0("Ambiente1.jpg"), height = 280, width = 472),
+                                         img(src ="Ambiente1.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Larus_Verde",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántoss días verías acá a esta ave?","")),
                                                    textInput("Benef_Larus_Verde",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                           img(src = paste0("Ambiente2.jpg"), height = 280, width = 472),
+                                           img(src = "Ambiente2.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Larus_Urbano",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Larus_Urbano",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                           img(src = paste0("Ambiente3.jpg"), height = 280, width = 472),
+                                           img(src = "Ambiente3.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Larus_PlayaNat",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Larus_PlayaNat",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                       img(src = paste0("Ambiente4.jpg"), height = 280, width = 472),
+                                       img(src = "Ambiente4.jpg", height = 280, width = 472),
                                                     textInput("FrecPercib_Larus_PlayaInt",
                                                               label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                     textInput("Benef_Larus_PlayaInt",
                                                               label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                           ),
                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                        img(src = paste0("Ambiente5.jpg"), height = 280, width = 472),
+                                        img(src = "Ambiente5.jpg", height = 280, width = 472),
                                                     textInput("FrecPercib_Larus_RocaNat",
                                                               label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                     textInput("Benef_Larus_RocaNat",
                                                               label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                           ),
                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                       img(src = paste0("Ambiente6.jpg"), height = 280, width = 472),
+                                       img(src = "Ambiente6.jpg", height = 280, width = 472),
                                                     textInput("FrecPercib_Larus_RocaInt",
                                                               label=h5("Si vinieras los 7 díaas de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                     textInput("Benef_Larus_RocaInt",
@@ -390,48 +390,48 @@ shinyApp(
                     
                        #Paloma
                               wellPanel(h3("En relación a la siguiente imgen:"),
-                                        img(src = paste0("Especie2.jpg"), height = 501, width = 374),
+                                        img(src ="Especie2.jpg", height = 501, width = 374),
                                                    radioButtons("Conoce_Columba", label = h5("¿Conoces a esta ave?"),
                                                        choices = list("Si" = 1, "No" = 2)),
                                                    textInput("Nombre_Columba", label=h5("Escribe el nombre de esta ave", ""))), 
 
                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                        img(src = paste0("Ambiente1.jpg"), height = 280, width = 472),
+                                        img(src = "Ambiente1.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Columba_Verde",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Columba_Verde",
                                                              label=h5("Ponle una nota al beneficio que percibe sal estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                        img(src = paste0("Ambiente2.jpg"), height = 280, width = 472),
+                                        img(src = "Ambiente2.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Columba_Urbano",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                         textInput("Benef_Columba_Urbano",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                         img(src = paste0("Ambiente3.jpg"), height = 280, width = 472),
+                                         img(src = "Ambiente3.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Columba_PlayaNat",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                          textInput("Benef_Columba_PlayaNat",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                                 wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                          img(src = paste0("Ambiente4.jpg"), height = 280, width = 472),
+                                          img(src = "Ambiente4.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Columba_PlayaInt",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                           textInput("Benef_Columba_PlayaInt",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                            img(src = paste0("Ambiente5.jpg"), height = 280, width = 472),
+                                            img(src = "Ambiente5.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Columba_RocaNat",
                                                              label=h5("Si vinieras los 7 días de la semana a este lugar, Â¿cuÃ¡ntos días verías acá a esta ave?","")),
                                                    textInput("Benef_Columba_RocaNat",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
-                                         img(src = paste0("Ambiente6.jpg"), height = 280, width = 472),
+                                         img(src = "Ambiente6.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Columba_RocaInt",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Columba_RocaInt",
@@ -439,206 +439,260 @@ shinyApp(
                                          ),
                      #Pelicano
                               wellPanel(h3("En relación a la siguiente imagen:"),
-                                        img(src = paste0("Especie3.jpg"), height = 501, width = 374),
+                                        img(src = "Especie3.jpg", height = 501, width = 374),
                                                    radioButtons("Conoce_Pele", label = h5("¿Conoce a esta ave?"),
                                                              choices = list("Si" = 1, "No" = 2)),
                                                    textInput("Nombre_Pele", label=h5("¿Conoce su nombre?", ""))
                                         ),
-                              wellPanel(h4("Verde"),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente1.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Pele_Verde",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Pele_Verde",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
-                              wellPanel(h4("Urbano"),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente2.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Pele_Urbano",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Pele_Urbano",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
-                               wellPanel(h4("Playa Natural"),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente3.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Pele_PlayaNat",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Pele_PlayaNat",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                         ),
-                              wellPanel(h4("Playa Intervenido"),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente4.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Pele_PlayaInt",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Pele_PlayaInt",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
-                               wellPanel(h4("Roca Natural"),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente5.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Pele_RocaNat",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Pele_RocaNat",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
                                          ),
-                              wellPanel(h4("Roca Intervenido"),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente6.jpg", height = 280, width = 472),
                                                    textInput("FrecPercib_Pele_RocaInt",
                                                              label=h5("Si viniera los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
                                                    textInput("Benef_Pele_RocaInt",
                                                              label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                                         ))
-                     # 
-                     # 
-                     # 
-                     # #Phalacrocorax
-                     # 
-                     #          wellPanel(
-                     #              radioButtons("Conoce_Phalacrocorax", label = h5("¿Conoce a esta ave?"),
-                     #                           choices = list("Si" = 1, "No" = 2)),
-                     #              textInput("Nombre_Phalacrocorax", label=h5("¿Conoce su nombre?", ""))
-                     #              ),
-                     #          wellPanel(h4("Verde"),
-                     #                               textInput("FrecPercib_Phalacrocorax_Verde",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                    textInput("Benef_Phalacrocorax_Verde",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Urbano"),
-                     #                               textInput("FrecPercib_Phalacrocorax_Urbano",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Phalacrocorax_Urbano",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #            wellPanel(h4("Playa Natural"),
-                     #                               textInput("FrecPercib_Phalacrocorax_PlayaNat",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                      textInput("Benef_Phalacrocorax_PlayaNat",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #            wellPanel(h4("Playa Intervenido"),
-                     #                               textInput("FrecPercib_Phalacrocorax_PlayaInt",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                      textInput("Benef_Phalacrocorax_PlayaInt",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Roca Natural"),
-                     #                               textInput("FrecPercib_Phalacrocorax_RocaNat",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Phalacrocorax_RocaNat",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Roca Intervenido"),
-                     #                               textInput("FrecPercib_Phalacrocorax_RocaInt",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Phalacrocorax_RocaInt",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     # 
-                     # 
-                     # #Zorzal
-                     #          wellPanel(
-                     #              radioButtons("Conoce_Turdus", label = h5("¿Conoce a esta ave?"),
-                     #                           choices = list("Si" = 1, "No" = 2)),
-                     #              textInput("Nombre_Turdus", label=h5("¿Conoce su nombre?", ""))
-                     #              ),
-                     #           wellPanel(h4("Verde"),
-                     #                               textInput("FrecPercib_Turdus_Verde",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Turdus_Verde",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #          wellPanel(h4("Urbano"),
-                     #                               textInput("FrecPercib_Turdus_Urbano",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                    textInput("Benef_Turdus_Urbano",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Playa Natural"),
-                     #                               textInput("FrecPercib_Turdus_PlayaNat",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Turdus_PlayaNat",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #          wellPanel(h4("Playa Intervenido"),
-                     #                               textInput("FrecPercib_Turdus_PlayaInt",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                    textInput("Benef_Turdus_PlayaInt",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #          wellPanel(h4("Roca Natural"),
-                     #                               textInput("FrecPercib_Turdus_RocaNat",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                    textInput("Benef_Turdus_RocaNat",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #          wellPanel(h4("Roca Intervenido"),
-                     #                               textInput("FrecPercib_Turdus_RocaInt",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                    textInput("Benef_Turdus_RocaInt",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     # #chincol
-                     #           wellPanel(
-                     #              radioButtons("Conoce_Zonotrichia", label = h5("¿Conoce a esta ave?"),
-                     #                           choices = list("Si" = 1, "No" = 2)),
-                     #              textInput("Nombre_Zonotrichia", label=h5("¿Conoce su nombre?", ""))
-                     #                     ),
-                     #          wellPanel(h4("Verde"),
-                     #                               textInput("FrecPercib_Zonotrichia_Verde",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                    textInput("Benef_Zonotrichia_Verde",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Urbano"),
-                     #                               textInput("FrecPercib_Zonotrichia_Urbano",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Zonotrichia_Urbano",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #            wellPanel(h4("Playa Natural"),
-                     #                               textInput("FrecPercib_Zonotrichia_PlayaNat",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                      textInput("Benef_Zonotrichia_PlayaNat",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #            wellPanel(h4("Playa Intervenido"),
-                     #                               textInput("FrecPercib_Zonotrichia_PlayaInt",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                      textInput("Benef_Zonotrichia_PlayaInt",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Roca Natural"),
-                     #                               textInput("FrecPercib_Zonotrichia_RocaNat",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Zonotrichia_RocaNat",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                     ),
-                     #           wellPanel(h4("Roca Intervenido"),
-                     #                               textInput("FrecPercib_Zonotrichia_RocaInt",
-                     #                                         label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
-                     #                     textInput("Benef_Zonotrichia_RocaInt",
-                     #                                         label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
-                     #                    )
-                     # ) #cierre tabpanel
-                     # 
-                     # 
-                     # tabPanel("Finalización",
-                              
-                              # fluidRow( 
-                              #     column(2,
-                              #            radioButtons("Origen_Columba", label = h5("Origen Columba"),
-                              #                         choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))),
-                              #     column(2,
-                              #            radioButtons("Origen_Pele", label = h5("Origen Pelec"),
-                              #                         choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))),
-                              #     column(2,
-                              #            radioButtons("Origen_Phalacrocorax", label = h5("Origen Phalacrocorax"),
-                              #                         choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))),
-                              #     column(2,
-                              #            radioButtons("Origen_Larus", label = h5("Origen Larus"),
-                              #                         choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))),
-                              #     column(2,
-                              #            radioButtons("Origen_Tordus", label = h5("Origen Tordus"),
-                              #                         choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))),
-                              #     column(2,
-                              #            radioButtons("Origen_Zonotrichia", label = h5("Origen Zonotrichia"),
-                              #                         choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3)))),
-                              # 
-                              # 
-                              # 
+                                         ),
+
+
+
+                     #Phalacrocorax
+
+                              wellPanel(h3("En relación a la siguiente imagen:"),
+                                        img(src = "Especie4.jpg", height = 501, width = 374),
+                                  radioButtons("Conoce_Phalacrocorax", label = h5("¿Conoce a esta ave?"),
+                                               choices = list("Si" = 1, "No" = 2)),
+                                  textInput("Nombre_Phalacrocorax", label=h5("¿Conoce su nombre?", ""))
+                                  ),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente1.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Phalacrocorax_Verde",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                        textInput("Benef_Phalacrocorax_Verde",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente2.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Phalacrocorax_Urbano",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Phalacrocorax_Urbano",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                          img(src = "Ambiente3.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Phalacrocorax_PlayaNat",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                          textInput("Benef_Phalacrocorax_PlayaNat",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                          img(src = "Ambiente4.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Phalacrocorax_PlayaInt",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                          textInput("Benef_Phalacrocorax_PlayaInt",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente5.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Phalacrocorax_RocaNat",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Phalacrocorax_RocaNat",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente6.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Phalacrocorax_RocaInt",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Phalacrocorax_RocaInt",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+
+
+                     #Zorzal
+                              wellPanel(h3("En relación a la siguiente imagen:"),
+                                        img(src = "Especie5.jpg", height = 501, width = 374),
+                                  radioButtons("Conoce_Turdus", label = h5("¿Conoce a esta ave?"),
+                                               choices = list("Si" = 1, "No" = 2)),
+                                  textInput("Nombre_Turdus", label=h5("¿Conoce su nombre?", ""))
+                                  ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente1.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Turdus_Verde",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Turdus_Verde",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente2.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Turdus_Urbano",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                        textInput("Benef_Turdus_Urbano",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente3.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Turdus_PlayaNat",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Turdus_PlayaNat",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente4.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Turdus_PlayaInt",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                        textInput("Benef_Turdus_PlayaInt",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente5.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Turdus_RocaNat",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                        textInput("Benef_Turdus_RocaNat",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente6.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Turdus_RocaInt",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                        textInput("Benef_Turdus_RocaInt",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                     #chincol
+                               wellPanel(h3("En relación a la siguiente imagen:"),
+                                         img(src = "Especie6.jpg", height = 501, width = 374),
+                                  radioButtons("Conoce_Zonotrichia", label = h5("¿Conoce a esta ave?"),
+                                               choices = list("Si" = 1, "No" = 2)),
+                                  textInput("Nombre_Zonotrichia", label=h5("¿Conoce su nombre?", ""))
+                                         ),
+                              wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                        img(src = "Ambiente1.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Zonotrichia_Verde",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                        textInput("Benef_Zonotrichia_Verde",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente2.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Zonotrichia_Urbano",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Zonotrichia_Urbano",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                          img(src = "Ambiente3.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Zonotrichia_PlayaNat",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                          textInput("Benef_Zonotrichia_PlayaNat",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                                wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                          img(src = "Ambiente4.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Zonotrichia_PlayaInt",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                          textInput("Benef_Zonotrichia_PlayaInt",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente5.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Zonotrichia_RocaNat",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Zonotrichia_RocaNat",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                         ),
+                               wellPanel(h3("Ahora piensa en esta especie y su presencia en el siguiente ambiente"),
+                                         img(src = "Ambiente6.jpg", height = 280, width = 472),
+                                                   textInput("FrecPercib_Zonotrichia_RocaInt",
+                                                             label=h5("Si vinieras los 7 días de la semana a este lugar, ¿cuántos días verías acá a esta ave?","")),
+                                         textInput("Benef_Zonotrichia_RocaInt",
+                                                             label=h5("Ponle una nota al beneficio que percibes al estar cerca de esta ave en este lugar (1 es nada y 7 es mucho) ",""))
+                                        ),
+                     
+                   
+                     fluidPage(
+                       column(4,
+                              wellPanel(h3("En relación a la siguiente imagen:"),
+                                        img(src = "Especie1.jpg", height = 501, width = 374),
+                                        
+                                        radioButtons("Origen_Larus", label = h5("¿Cuál es el origen de esta ave?"),
+                                                     choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))
+                              )),
+                     
+                      column(4,
+                             
+                             wellPanel(h3("En relación a la siguiente imagen:"),
+                                       img(src = "Especie2.jpg", height = 501, width = 374),
+                                       
+                                       radioButtons("Origen_Columba", label = h5("¿Cuál es el origen de esta ave?"),
+                                                    choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))
+                             )),
+                      
+                      column(4, 
+                             wellPanel(h3("En relación a la siguiente imagen:"),
+                                       img(src = "Especie3.jpg", height = 501, width = 374),
+                                       
+                                       radioButtons("Origen_Pele", label = h5("¿Cuál es el origen de esta ave?"),
+                                                    choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))
+                             ))
+                            ),#cierre fuid page
+                     
+                     fluidPage(
+                       column(4,
+                              wellPanel(h3("En relación a la siguiente imagen:"),
+                                        img(src = "Especie4.jpg", height = 501, width = 374),
+                                        
+                                        radioButtons("Origen_Phalacrocorax", label = h5("¿Cuál es el origen de esta ave?"),
+                                                     choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))
+                              )),
+                       column(4,
+                              wellPanel(h3("En relación a la siguiente imagen:"),
+                                        img(src = "Especie5.jpg", height = 501, width = 374),
+                                        
+                                        radioButtons("Origen_Turdus", label = h5("¿Cuál es el origen de esta ave?"),
+                                                     choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))
+                              )),
+                       column(4,
+                              wellPanel(h3("En relación a la siguiente imagen:"),
+                                        img(src = "Especie6.jpg", height = 501, width = 374),
+                                        
+                                        radioButtons("Origen_Zonotrichia", label = h5("¿Cuál es el origen de esta ave?"),
+                                                     choices = list("Terrestre" = 1, "Marino" = 2, "No sabe" =3))
+                              ))
+                       )
+                   
+                   )
                               # fluidRow(
                               #     column(6,
                               #            wellPanel(h4("Visitas Areas verdes"),
